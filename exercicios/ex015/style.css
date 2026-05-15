@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: linear-gradient(to bottom, #76E7CD, #A29F15);
+    background-attachment: fixed;
+}
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #70866da1;
+    width: 1000px;
+    padding: 10px;
+    margin: auto;
+}
+#principal {
+    color: white;
+    background-color: #623B5A;
+    text-align: center;
+    text-shadow: none;
+    font-size: 3em;
+}
+h1 {
+    color: #623B5A;
+    text-shadow: 1px 1px 2px #3f263aa9;
+}
+h2 {
+    color: #F96900;
+}
+p {
+    text-align: justify;
+}
+.segundo {
+        color: #A29F15;
+}
+.destaque {
+    background-color: #9899A6;
+}
+div {
+    color: white;
+    background-color: #9899A6;
+    border: solid black;
+    text-align: center;
+    width: 300px;
+    font-weight: bolder;
+}
+div > p {
+    display: none;
+}
+div:hover > p {
+    font-size: 2em;
+    text-align: center;
+    display: block;
+    color: #76E7CD;
+}
+a {
+    color: #F96900;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited {
+    color: #c45100;
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+.banda::after {
+    content: '  [banda]';
+    color: #76E7CD;
+    font-weight: 100;
+}
+.cantor::after {
+    content: '  [artista solo]';
+    color: #76E7CD;
+    font-weight: 100;
+}

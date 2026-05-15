@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Diferentes Mídias</h1>
+    <h2>Imagens dinâmicas</h2>
+    <p>Testando imagens de diferentes tamanhos</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="midia/imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="midia/imagens/foto-m.png" type="image/png">
+        <img src="midia/imagens/foto-g.png" alt="foto grande">
+    </picture>
+    <h2>Aúdio</h2>
+    <p>Testando áudio</p>
+    <audio preload="metadata" controls>
+        <source src="midia/audios/Introduction to the Snow.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não suporta o áudio. <a href="midia/audios/Introduction to the Snow.mp3">Clique aqui para baixá-lo</a></p>
+    </audio>
+    <h2>Vídeo</h2>
+    <p>Testando vídeo</p>
+    <video src="midia/videos/VID-20240920-WA0002.mp4" width="500" poster="midia/imagens/capa.png" controls></video>
+    <h2>Vídeo do YouTube</h2>
+    <p>Testando vídeo do YouTube</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/M6b8fywMUtk?si=5lLezlndbfzdvg6l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>Vídeo do Vimeo</h2>
+    <p>Testando vídeo do Vimeo</p>
+    <iframe title="vimeo-player" src="https://player.vimeo.com/video/368704124?h=5665cdd008" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>
+</body>
+</html>
