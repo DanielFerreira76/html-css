@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            font-size: 16px;
+        }
+        caption {
+            font-size: 12px;
+            padding: 5px;
+            background-color: gray;
+        }
+        thead, tfoot {
+            background-color: rgb(54, 54, 54);
+            color: white;
+            font-weight: bolder;
+        }
+        tbody > tr:nth-child(even) {
+            background-color: darkgray;
+        }
+        th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <table>
+        <caption>Vendas na primeira semana de cada álbum do Tyler, The Creator</caption>
+        <thead>
+            <th style="width: 200px" scope="col">Álbum</th>
+            <th scope="col">Vendas</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>CHROMAKOPIA</td>
+                <td class="num">300.000</td>
+            </tr>
+            <tr>
+                <td>DON'T TAP THE GLASS</td>
+                <td class="num">197.000</td>
+            </tr>
+            <tr>
+                <td>CALL ME IF YOU GET LOST</td>
+                <td class="num">169.000</td>
+            </tr>
+            <tr>
+                <td>IGOR</td>
+                <td class="num">165.000</td>
+            </tr>
+            <tr>
+                <td>Flower Boy</td>
+                <td class="num">106.000</td>
+            </tr>
+            <tr>
+                <td>Wolf</td>
+                <td class="num">89.000</td>
+            </tr>
+            <tr>
+                <td>Cherry Bomb</td>
+                <td class="num">58.000</td>
+            </tr>
+            <tr>
+                <td>Goblin</td>
+                <td class="num">45.000</td>
+            </tr>
+            <tr>
+                <td>Bastard</td>
+                <td class="num">(não divulgado)</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row">Total de Vendas</th>
+            <td class="num">1.129.000</td>
+        </tfoot>
+    </table>
+</body>
+</html>
