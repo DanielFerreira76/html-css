@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: mediumspringgreen;
+        }
+        table {
+            border-collapse: collapse;
+            width: fit-content;
+        }
+        thead {
+            text-align: center;
+        }
+        tbody td:nth-child(n + 2), tbody th:nth-child(n + 2) {
+            text-align: right;
+        }
+        th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col>
+            <col span="3" class="n">
+        </colgroup>
+        <thead>
+            <tr>
+                <th colspan="4">INFORMAÇÃO NUTRICIONAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th></th>
+                <th>100g</th>
+                <th>60g</th>
+                <th>%VD*</th>
+            </tr>
+            <tr>
+                <td>Valor enérgetico (kcal)</td>
+                <td>400kcal</td>
+                <td>240kcal</td>
+                <td>12%</td>
+            </tr>
+            <tr>
+                <td>Carboidratos totais (g)</td>
+                <td>60g</td>
+                <td>36g</td>
+                <td>12%</td>
+            </tr>
+            <tr>
+                <td>Açucares totais (g)</td>
+                <td>40g</td>
+                <td>24g</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Açucares adicionados</td>
+                <td>35g</td>
+                <td>21g</td>
+                <td>42%</td>
+            </tr>
+            <tr>
+                <td>Proteinas (g)</td>
+                <td>4g</td>
+                <td>2,4g</td>
+                <td>5%</td>
+            </tr>
+            <tr>
+                <td>Gorduras totais (g)</td>
+                <td>18g</td>
+                <td>11g</td>
+                <td>20%</td>
+            </tr>
+            <tr>
+                <td>Gorduras saturadas (g)</td>
+                <td>8g</td>
+                <td>4,8g</td>
+                <td>24%</td>
+            </tr>
+            <tr>
+                <td>Gorduras trans</td>
+                <td>-</td>
+                <td>-</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <td>Fibra alimentar (g)</td>
+                <td>2g</td>
+                <td>1,2g</td>
+                <td>5%</td>
+            </tr>
+            <tr>
+                <td>Sódio (mg)</td>
+                <td>300mg</td>
+                <td>180mg</td>
+                <td>8%</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">*Percentual de valores diarios fornecidos pela porção</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
