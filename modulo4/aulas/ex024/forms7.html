@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Selct, Datalist e Textarea</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="album">Álbum: </label>
+            <select name="album" id="album">
+                <option value="" selected>--- Escolha um Álbum ---</option>
+                <optgroup label="Tyler, The Creator">
+                    <option value="bastard">Bastard</option>
+                    <option value="goblin">Goblin</option>
+                    <option value="wolf">Wolf</option>
+                    <option value="cb">CHERRY BOMB</option>
+                    <option value="fb">Flower Boy</option>
+                    <option value="igor">IGOR</option>
+                    <option value="cmiygl">CALL ME IF YOU GET LOST</option>
+                    <option value="chromakopia">CHROMAKOPIA</option>
+                    <option value="dttg">DON'T TAP THE GLASS</option>
+                </optgroup>
+                <optgroup label="Daniel Caesar">
+                    <option value="cs01">CASE STUDY 01</option>
+                    <option value="freudian">Freudian</option>
+                    <option value="ne">NEVER ENOUGH</option>
+                    <option value="sos">Son of Spergy</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="artista">Artista Favorito: </label>
+            <input type="text" name="artista" id="artista" list="lstart" required>
+            <datalist id="lstart">
+                <option>Tyler, The Creator</option>
+                <option>Daniel Caesar</option>
+                <option>MF Doom</option>
+                <option>Kanye West</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="msg">Mensagem: </label><br>
+            <textarea name="mgs" id="mgs" cols="30" rows="15"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
