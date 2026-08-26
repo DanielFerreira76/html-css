@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* Impressora */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: lightcoral;
+}
+h1 {
+    text-align: center;
+}
+ul {
+    display: none;
+}
+main {
+    width: 100%;
+    margin: auto;
+}
+h2 {
+    text-align: center;
+}
+p {
+    text-align: justify;
+    line-height: 1.5em;
+}
