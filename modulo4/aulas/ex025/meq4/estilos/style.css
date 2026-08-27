@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* Modile First */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+body {
+    background: black url(../../imagens/back-phone.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 10px;
+}
+main {
+    background-color: rgb(255, 255, 255, 0.85);
+    width: 90vw;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+    font-size: 32px;
+}
+img {
+    display: block;
+    margin: auto;
+}
+#tablet, #print, #pc, #tv {
+    display: none;
+}
