@@ -52,12 +52,13 @@ menu > ul > li > a:hover {
     background-color: gray;
 }
 main {
-    width: 90vw;
+    width: 85vw;
     background-color: white;
     margin: auto;
     margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 article > h2 {
     padding-bottom: 20px;
