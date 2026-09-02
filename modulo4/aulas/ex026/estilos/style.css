@@ -53,3 +53,47 @@ section > #form > h1 {
 section > #form > p {
     font-size: 0.8em;
 }
+form > .campo {
+    background-color: #5F2C82;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+form label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    background-color: #49A09D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form > input[type=submit]:hover {
+    background-color: #397c7a;
+}
+form > a {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    background-color: #52b4b1;
+    color: #397c7a;
+    border: 1px solid #397c7a;
+    border-radius: 5px;
+    text-decoration: none;
+}
+form > a:hover {
+    background-color: white;
+}
+span  {
+    margin-left: 5px;
+    transform: translateY(6px);
+}
