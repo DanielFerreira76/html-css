@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
 </head>
 <body>
     <main>
@@ -15,7 +16,16 @@
                 <div id="form">
                     <h1>Login</h1>
                     <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                    <form method="post" action="cad.php"></form>
+                    <form method="post" action="cad.php">
+                        <p>
+                            <label for="email">E-mail: </label>
+                            <input type="email" name="email" id="email">
+                        </p>
+                        <p>
+                            <label for="senha">Senha: </label>
+                            <input type="password" name="senha" id="senha">
+                        </p>
+                    </form>
                 </div>
         </section>
     </main>
