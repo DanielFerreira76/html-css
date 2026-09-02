@@ -1,11 +1,12 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background-image: linear-gradient(to top, #49A09D, #5F2C82);
     }
     section {
         width: 90vw;
+        height: 300px;
     }
     section > #img {
         float: left;
@@ -27,6 +28,7 @@
     }
     section {
         width: 975px;
+        height: 400px;
     }
     section > #img {
         float: right;
@@ -39,6 +41,7 @@
     }
     section > #form > p {
         font-size: 1.2em;
+        margin: 20px 0px;
     }
     section > #form > h1 {
         font-size: 4em;
